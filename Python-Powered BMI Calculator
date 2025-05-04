@@ -1,0 +1,292 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "3be9fee2-99dc-47da-919b-107c4f86f626",
+   "metadata": {},
+   "source": [
+    "# BMI Calculator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "d6fe8baa-7551-4932-9db4-21d05024c17a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your name Alex\n",
+      "Enter your weight in pounds:  170\n",
+      "Enter your height in inches:  69\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25.101869355177485\n",
+      "Alex, you are overweight. You need to exercise more stop sitting and writing so many python tutorials. \n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input(\"Enter your name\")\n",
+    "\n",
+    "weight = int(input(\"Enter your weight in pounds: \"))\n",
+    "\n",
+    "height = int(input(\"Enter your height in inches: \"))\n",
+    "\n",
+    "BMI = (weight * 703) / (height * height)\n",
+    "\n",
+    "print(BMI)\n",
+    "\n",
+    "if BMI>0:\n",
+    "    if(BMI<18.5):\n",
+    "        print(name +\", you are underweight.\")\n",
+    "    elif(BMI<=24.9):\n",
+    "        print(name +\", you are normal weight.\")\n",
+    "    elif(BMI<29.9):\n",
+    "        print(name +\", you are overweight. You need to exercise more stop sitting and writing so many python tutorials. \")\n",
+    "    elif(BMI<34.9):\n",
+    "        print(name +\", you are obese.\")\n",
+    "    elif(BMI<39.9):\n",
+    "        print(name +\", you are severely obese.\")\n",
+    "    else:\n",
+    "        print(\"Enter valid input\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "960f955d-07a3-40bd-9d5b-1692f3404e58",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bfdbe9c0-8a7d-40ee-b490-313314d545d5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8c9f6b31-ff65-4e8e-a440-04b24a5584b0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9260a76e-b96d-44ff-975f-ace0c9aa7826",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "BMI = (weight in pounds x 703) / (height in inches x height in inches)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a033675c-e56e-48f4-baca-5f4077aec466",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "2b0e03f4-a437-4c37-8f78-7fb601f6c1a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Alex, you are overweight.\n"
+     ]
+    }
+   ],
+   "source": [
+    "if BMI>0:\n",
+    "    if(BMI<18.5):\n",
+    "        print(name +\", you are underweight.\")\n",
+    "    elif(BMI<=24.9):\n",
+    "        print(name +\", you are normal weight.\")\n",
+    "    elif(BMI<29.9):\n",
+    "        print(name +\", you are overweight.\")\n",
+    "    elif(BMI<34.9):\n",
+    "        print(name +\", you are obese.\")\n",
+    "    elif(BMI<39.9):\n",
+    "        print(name +\", you are severely obese.\")\n",
+    "    else:\n",
+    "        print(\"Enter valid input\")\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "83f88fe2-1ab5-496f-ac71-e0e2fb40bde2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "87559f24-c379-4c8c-b32c-b3dd995d58ab",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9691dcfe-0728-404d-98b0-ec8bd65a3931",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d7315a71-b7f8-4176-88f4-d2004f93b287",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5996718e-eedd-4bcb-b657-31181f7ef131",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2836dbcf-4ba9-4e7c-986d-f846817d66d8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e0568bac-f92c-4b33-8f7f-068156db175d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "26e52631-ea3f-4287-a94f-94536d4c9a97",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "589245f5-f23a-40c6-879b-e6d85849bc1e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "10992ece-5f8f-462c-9e65-3d0cdc02aecf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b837068f-be0b-4b27-b53f-29d5618ef0c6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0853561c-001a-419a-b0cc-ff888bee4bd4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8c62b261-1b0d-4eb6-8d69-ec7685da0c25",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1e3606d0-a74a-44e1-bd98-4ddefa361020",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "25933e82-36a8-46eb-a481-d04a5cb8e65a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d175155a-1a7f-490d-926a-ea89830e2609",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ff35617f-11d5-4e93-941c-03b9bb614b92",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
